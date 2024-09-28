@@ -1,0 +1,7 @@
+with open('Frailty_Analysis/Results/final_report.md', 'w') as f:
+    f.write("# Frailty Analysis Report\n")
+    f.write("This report summarizes the analysis of frailty and grip strength in female participants.\n")
+    f.write("## Descriptive Statistics\n")
+    f.write(descriptive_stats.to_string())
+    f.write("\n\n## Correlation Analysis\n")
+    f.write(correlation_matrix.to_string())

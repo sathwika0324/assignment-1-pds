@@ -1,0 +1,2 @@
+descriptive_stats = df.describe()
+descriptive_stats.to_csv('Frailty_Analysis/Data_Analysis/descriptive_statistics.csv', index=False)

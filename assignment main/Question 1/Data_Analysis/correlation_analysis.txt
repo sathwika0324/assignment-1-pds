@@ -1,0 +1,3 @@
+df['Frailty'] = df['Frailty'].map({'N': 0, 'Y': 1})
+correlation_matrix = df.corr()
+correlation_matrix.to_csv('Frailty_Analysis/Data_Analysis/correlation_analysis.csv', index=False)

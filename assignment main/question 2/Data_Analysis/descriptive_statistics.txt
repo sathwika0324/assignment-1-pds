@@ -1,0 +1,2 @@
+descriptive_stats = data.describe()
+descriptive_stats.to_csv('Student_Performance_Analysis/Data_Analysis/descriptive_statistics.csv')

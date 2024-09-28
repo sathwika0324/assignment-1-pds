@@ -1,0 +1,2 @@
+correlation_matrix = data_encoded.corr()
+correlation_matrix.to_csv('Student_Performance_Analysis/Data_Analysis/correlation_analysis.csv')
